@@ -28,7 +28,7 @@ private int size = 100;
 	}
 	
 	// After Every Move Paint The Board
-	public void repaint(Graphics window)
+	public void update(Graphics window)
 	{
 
 	}
