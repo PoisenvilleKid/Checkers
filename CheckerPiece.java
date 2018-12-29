@@ -9,7 +9,8 @@ import javax.swing.JPanel;
 
 
 public class CheckerPiece extends JPanel {
-private int [][] fred = new int [8][8];
+private static final long serialVersionUID = 1L;
+private int[][] fred = new int[8][8];
 private int [][] fred1 = new int [8][8];
 private int x = 100;
 private int y = 100;
@@ -20,7 +21,7 @@ private int y = 100;
     }
     public void paint( Graphics window )
     {
-    	paintPieces(window);
+    	//paintPieces(window);
     }
     public void paintPieces(Graphics window)
     {

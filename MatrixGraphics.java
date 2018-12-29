@@ -108,11 +108,6 @@ private int mousebutton;
     			
     		}
     	}
-    	
-    	
-    	
-    	
-    	
     }
     public void removeTile (Graphics window)
     {
@@ -127,9 +122,6 @@ private int mousebutton;
     		}
     	}
     	}
-    	
-    			
-    	    
     }
     
     public void mouseEntered(MouseEvent e) { }

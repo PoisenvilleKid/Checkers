@@ -11,6 +11,7 @@ import javax.swing.JPanel;
 
 
 public class Checkers extends JPanel implements MouseListener {
+private static final long serialVersionUID = 1L;
 private int x = 100;
 private int y = 100;
 private int mouseX;
@@ -19,6 +20,7 @@ private int mousebutton;
 private int Col = 0;
 private int Row = 0;
 private int count = 0;
+
 private int [][] fred = 
 {{0,1,0,1,0,1,0,1},
  {1,0,1,0,1,0,1,0},
@@ -145,13 +147,6 @@ private int size;
     	
     }
     
- 
-    	
-    
-    		
-        	    	
-    
-    	
     	public void checkIt()
     	{
     		for(int row = 0; row<8; row++)
@@ -204,11 +199,6 @@ private int size;
         	repaint();
     		count = 0;
         }
-        
-        
-    	
-    	
-    	
        	  	
 	}
     	public void repaint(Graphics window)

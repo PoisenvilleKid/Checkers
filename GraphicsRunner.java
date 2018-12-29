@@ -8,41 +8,14 @@ public class GraphicsRunner extends JFrame
 	public GraphicsRunner()
 	{
 		super("Graphics Runner");
-
 		setSize(WIDTH,HEIGHT);
-		//getContentPane().add(new MatrixGraphics());
-		//getContentPane().add(new MouseClick());
-
-		//getContentPane().add(new Circles());
-
-		//getContentPane().add(new Rectangles());
-
-		//getContentPane().add(new Lines());
-
-		//getContentPane().add(new Polygons());
-
-		//getContentPane().add(new Arcs());
-
-		//getContentPane().add(new Colors());
-
-		//getContentPane().add(new Fonts());
-
-		//getContentPane().add(new ImageOne());
-
-		//getContentPane().add(new DoubleBuffer());
-
-		//getContentPane().add(new Animation());
 		getContentPane().add(new Checkers());
-
 		setVisible(true);
 	}
 
 	public static void main( String args[] )
 	{
 		GraphicsRunner run = new GraphicsRunner();
-		
-		
-		
 	}
 	
 }
